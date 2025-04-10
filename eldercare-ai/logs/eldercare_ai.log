@@ -1,0 +1,124 @@
+2025-04-08 09:36:02,697 - INFO - 🎤 VoiceInputSimulator initialized (simulate voice input)
+2025-04-08 09:37:35,224 - INFO - 🎤 VoiceInputSimulator initialized (simulate voice input)
+2025-04-08 09:37:35,300 - INFO - Loaded health data from data/health_monitoring.csv with 10000 rows
+2025-04-08 09:37:35,304 - INFO - Scheduler thread started
+2025-04-08 09:37:35,306 - INFO - AI assistant started. Say something to interact...
+2025-04-08 09:38:00,071 - INFO - Received simulated voice input: its cold
+2025-04-08 09:38:00,073 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "its cold"
+    Response:
+    
+2025-04-08 09:38:12,168 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 09:38:12,169 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 09:38:12,171 - INFO - User input: its cold, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 09:38:26,219 - INFO - Voice input interrupted by user
+2025-04-08 09:38:31,439 - INFO - Voice input interrupted by user
+2025-04-08 09:38:35,037 - INFO - Received simulated voice input:  
+2025-04-08 09:38:35,039 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: " "
+    Response:
+    
+2025-04-08 09:38:47,111 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 09:38:47,113 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 09:38:47,116 - INFO - User input:  , Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 09:38:48,122 - INFO - Received simulated voice input: 
+2025-04-08 09:38:49,125 - INFO - Received simulated voice input: 
+2025-04-08 09:43:52,565 - INFO - 🎤 VoiceInputSimulator initialized (simulate voice input)
+2025-04-08 09:43:52,629 - INFO - Loaded health data from data/health_monitoring.csv with 10000 rows
+2025-04-08 09:43:52,632 - INFO - Scheduler thread started
+2025-04-08 09:43:52,634 - INFO - AI assistant started. Say something to interact...
+2025-04-08 09:46:13,299 - INFO - Received simulated voice input: hello
+2025-04-08 09:46:13,300 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "hello"
+    Response:
+    
+2025-04-08 09:46:25,414 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 09:46:25,415 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 09:46:25,418 - INFO - User input: hello, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 09:48:28,842 - INFO - Received simulated voice input: hello
+2025-04-08 09:48:28,844 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "hello"
+    Response:
+    
+2025-04-08 09:48:40,910 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 09:48:40,911 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 09:48:40,913 - INFO - User input: hello, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 09:56:20,763 - INFO - Received simulated voice input: hello i am so sad
+2025-04-08 09:56:20,764 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "hello i am so sad"
+    Response:
+    
+2025-04-08 09:56:32,827 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 09:56:32,829 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 09:56:32,830 - INFO - User input: hello i am so sad, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 09:56:48,409 - INFO - Received simulated voice input: reminder
+2025-04-08 09:56:48,411 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "reminder"
+    Response:
+    
+2025-04-08 09:57:00,496 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 09:57:00,500 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 09:57:00,502 - INFO - User input: reminder, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 10:00:46,371 - INFO - Received simulated voice input: I’m feeling a bit lonely today
+2025-04-08 10:00:46,374 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "I’m feeling a bit lonely today"
+    Response:
+    
+2025-04-08 10:00:53,922 - ERROR - Invalid LLM response format: A sad day!
+2025-04-08 10:00:53,924 - INFO - User input: I’m feeling a bit lonely today, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 10:02:42,542 - INFO - Received simulated voice input: hello
+2025-04-08 10:02:42,543 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "hello"
+    Response:
+    
+2025-04-08 10:02:54,617 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 10:02:54,620 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 10:02:54,623 - INFO - User input: hello, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 10:08:57,698 - INFO - Voice input interrupted by user
+2025-04-08 10:12:33,620 - INFO - Received simulated voice input: I’m feeling a bit lonely today
+2025-04-08 10:12:33,623 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "I’m feeling a bit lonely today"
+    Response:
+    
+2025-04-08 10:12:45,701 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 10:12:45,702 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 10:12:45,704 - INFO - User input: I’m feeling a bit lonely today, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 10:13:30,517 - INFO - Received simulated voice input: I’m feeling a bit lonely today
+2025-04-08 10:13:30,517 - INFO - Sending prompt to Ollama LLM: 
+    You are an AI assistant for elderly care. Analyze the user's input and determine the intent. 
+    Possible intents: 'reminder' (e.g., set a reminder), 'emotion' (e.g., express feelings), 'health' (e.g., check vitals), or 'other'.
+    Provide a JSON response with 'intent' and 'details' (e.g., time for reminders, emotion for feelings).
+    Input: "I’m feeling a bit lonely today"
+    Response:
+    
+2025-04-08 10:13:42,581 - ERROR - Timeout during LLM communication to http://localhost:11434/api/generate
+2025-04-08 10:13:42,583 - ERROR - Invalid LLM response format: Error: Request timed out.
+2025-04-08 10:13:42,585 - INFO - User input: I’m feeling a bit lonely today, Response: Sorry, I didn’t understand that. Please try again!
+2025-04-08 10:16:45,134 - INFO - Voice input interrupted by user
